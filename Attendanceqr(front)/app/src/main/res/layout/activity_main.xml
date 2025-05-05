@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/neutral_light">
+
+    <!-- Logo en haut -->
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="268dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="48dp"
+        android:contentDescription="University Logo"
+        android:src="@drawable/univ_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Image au milieu -->
+
+    <!-- Bouton en bas de l'image -->
+
+    <TextView
+        android:id="@+id/appTitle"
+        style="@style/TextAppearance.Attendanceqr.Headline2"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="56dp"
+        android:text="   Attendance QR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoImage" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/imageCard"
+        style="@style/Widget.Attendanceqr.CardView"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appTitle"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/centerImage"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:contentDescription="QR Code Illustration"
+            android:scaleType="centerCrop"
+            android:src="@drawable/qr_illustration" />
+
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLogin"
+        style="@style/Widget.Attendanceqr.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="100dp"
+        android:padding="12dp"
+        android:text="Login as Teacher"
+        app:cornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="© 2025 Attendance QR System"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        style="@style/TextAppearance.Attendanceqr.Caption"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

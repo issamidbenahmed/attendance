@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Palette de couleurs principale -->
+    <color name="primary">#1976D2</color>
+    <color name="primary_dark">#0D47A1</color>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="accent">#FF5722</color>
+
+    <!-- Couleurs neutres -->
+    <color name="neutral_dark">#37474F</color>
+    <color name="neutral_medium">#78909C</color>
+    <color name="neutral_light">#ECEFF1</color>
+    <color name="green">#43A047</color>
+    <color name="red">#E53935</color>
+
+    <!-- États -->
+    <color name="success">#43A047</color>
+    <color name="warning">#FFA000</color>
+    <color name="error">#E53935</color>
+
+    <!-- Couleurs de base -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Couleurs d'origine (gardées pour compatibilité) -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="gray_500">#9E9E9E</color>
+    <color name="primary_color">#3F51B5</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="dark_gray">#444444</color>
+    <color name="gray">#888888</color>
+
+</resources>

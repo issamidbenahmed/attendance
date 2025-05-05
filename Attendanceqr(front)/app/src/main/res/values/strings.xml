@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Attendanceqr</string>
+    <string name="back">Retour</string>
+    <string name="attendance_list">Liste des Présences</string>
+    <string name="refresh">Actualiser</string>
+    <string name="total">Total</string>
+    <string name="present">Présents</string>
+    <string name="absent">Absents</string>
+    <string name="search_hint">Rechercher un étudiant...</string>
+    <string name="no_attendance_data">Aucune présence enregistrée</string>
+</resources>

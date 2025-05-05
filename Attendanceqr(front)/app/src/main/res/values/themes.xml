@@ -1,0 +1,107 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Thème principal de l'application -->
+    <style name="Theme.Attendanceqr" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Couleurs primaires -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Couleurs secondaires -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Couleurs d'erreur -->
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/white</item>
+
+        <!-- Couleurs de surface -->
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/neutral_dark</item>
+        <item name="android:colorBackground">@color/neutral_light</item>
+        <item name="colorOnBackground">@color/neutral_dark</item>
+
+        <!-- Configuration système -->
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:navigationBarColor">@color/primary_dark</item>
+
+        <!-- Typographie -->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.Attendanceqr.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.Attendanceqr.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.Attendanceqr.Headline3</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.Attendanceqr.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.Attendanceqr.Body2</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.Attendanceqr.Caption</item>
+
+        <!-- Composants -->
+        <item name="materialCardViewStyle">@style/Widget.Attendanceqr.CardView</item>
+        <item name="materialButtonStyle">@style/Widget.Attendanceqr.Button</item>
+    </style>
+
+    <!-- Styles de typographie -->
+    <style name="TextAppearance.Attendanceqr.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">sans-serif-light</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/primary_dark</item>
+    </style>
+
+    <style name="TextAppearance.Attendanceqr.Headline2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/neutral_dark</item>
+    </style>
+
+    <style name="TextAppearance.Attendanceqr.Headline3" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/neutral_dark</item>
+    </style>
+
+    <style name="TextAppearance.Attendanceqr.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/neutral_dark</item>
+    </style>
+
+    <style name="TextAppearance.Attendanceqr.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/neutral_dark</item>
+    </style>
+
+    <style name="TextAppearance.Attendanceqr.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/neutral_medium</item>
+    </style>
+
+    <!-- Styles de composants -->
+    <style name="Widget.Attendanceqr.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">2dp</item>
+        <item name="cardCornerRadius">8dp</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+
+    <style name="Widget.Attendanceqr.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+    <!-- Ajoutez dans votre fichier de styles -->
+    <style name="Widget.Attendanceqr.TextInputLayout.Icon" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="hintTextColor">@color/primary</item>
+        <item name="iconSize">20dp</item>
+        <item name="startIconTint">@color/primary</item>
+        <item name="endIconTint">@color/primary</item>
+    </style>
+</resources>
